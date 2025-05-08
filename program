@@ -13,6 +13,7 @@ programa {
 
   resto = candidatoImpar % 2
 
+   /*A CONDIÇÃO se(resto !=0) SIGNIFICA SE O RESTO DA DIVISÃO FOR DIFERENTE DE ZERO O PROGRAMA ESCREVERÁ IMPAR SE O RESTO FOR ZERO, O NUMERO É PAR*/
   se(resto !=0){
       escreva("O numero que voce digitou é impar.\n")
   } 
