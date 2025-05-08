@@ -1,0 +1,24 @@
+/*VERICAÇÃO DE NUMEROS IMPARES OU PARES*/
+/*DIEGO LIMA DA SILVA*/
+
+programa {
+  funcao inicio() {
+    inteiro candidatoImpar, resto
+
+    escreva("Por favor digite um numero:\n")
+    leia(candidatoImpar)
+    escreva("Voce digitou o número ", candidatoImpar," .\n")
+
+    /*AQUI ESTÁ A APLICAÇÃO DO OPERADOR: RESTO DA DIVISÃO (%).*/
+
+  resto = candidatoImpar % 2
+
+  se(resto !=0){
+      escreva("O numero que voce digitou é impar.\n")
+  } 
+  senao{
+      escreva("O numero que voce digitou é Par.\n")
+
+  }   
+  }
+}
